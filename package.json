@@ -1,0 +1,18 @@
+{
+  "name": "nerox-air",
+  "version": "1.0.0",
+  "description": "Lightweight NexaMusic web player",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm run build",
+    "build": "rm -rf dist && mkdir -p dist && cp index.html styles.css app.js dist/",
+    "start": "python3 -m http.server 4173"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://localhost:26831/tanmayy91/Nerox-Air"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
