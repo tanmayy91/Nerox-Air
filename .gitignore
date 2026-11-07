@@ -1,0 +1,18 @@
+# Legacy web build artifact
+/dist/
+
+# Gradle
+.gradle/
+build/
+*/build/
+.kts-cache/
+
+# Android local config
+local.properties
+
+# IDE
+.idea/
+*.iml
+
+# Kotlin
+.kotlin/

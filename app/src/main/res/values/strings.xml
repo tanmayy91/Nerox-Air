@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NexaMusic Lite</string>
+    <string name="select_track">Select a track</string>
+    <string name="now_playing">Now playing: %1$s</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+</resources>
