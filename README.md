@@ -1,24 +1,21 @@
-# Nerox-Air (NexaMusic Lite)
+# Nerox-Air (NexaMusic Lite Android)
 
-A lightweight version of NexaMusic with a simple browser-based music player.
+A lightweight Android version inspired by NexaMusic.
 
-## Run locally
-
-```bash
-npm install
-npm start
-```
-
-Then open `http://localhost:4173`.
-
-## Build
+## Build locally
 
 ```bash
-npm run build
+./gradlew assembleDebug
 ```
 
-Build output is generated in `dist/`.
+The debug APK is generated under:
 
-## CI
+`app/build/outputs/apk/debug/`
 
-GitHub Actions workflow at `.github/workflows/build.yml` installs dependencies and runs the build on pushes and pull requests.
+## CI workflow
+
+GitHub Actions workflow at `.github/workflows/build.yml` builds the app with:
+
+- JDK 17
+- Gradle wrapper
+- `./gradlew assembleDebug`
